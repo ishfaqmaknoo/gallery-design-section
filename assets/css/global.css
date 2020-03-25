@@ -108,6 +108,15 @@ ul {
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 }
+.nav-icon.active .nav-menu {
+	background: url(../images/cancel.svg) no-repeat center center / cover;
+}
+.nav-menu {
+	background: url(../images/open-menu.svg) no-repeat center center / cover;
+	width: 36px;
+	height: 27px;
+	display: inline-block;
+}
 .nav-icon img {
 	width: 30px;
 }
